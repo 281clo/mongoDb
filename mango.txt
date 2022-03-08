@@ -1,0 +1,10 @@
+To embed or not to embed:
+1. Is the embedded data wanted 80% of the time?
+2. How often do you want the embedded data without
+the containing document?(embedded comes with all)
+3. Is the embedded data a bounded set?(needs to be small, not scaleable)
+4. Is that bound small? (documents limited to 16mb)
+5. How varied are your queries? (don't want varied data)
+6. Is this an intergration database or application database?
+intergration database feed off same database (more complicated)
+application databases feed off individual databases
